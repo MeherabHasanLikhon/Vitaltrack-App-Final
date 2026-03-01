@@ -7,279 +7,263 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AED567EC2F1F6E40006A4CAF /* VitalTrack Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AED567EB2F1F6E40006A4CAF /* VitalTrack Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AEC5569D2F54FC10005D6EC7 /* VitalTrack Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AEC5569C2F54FC10005D6EC7 /* VitalTrack Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AEC556B72F54FE2F005D6EC7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC556B62F54FE2F005D6EC7 /* WidgetKit.framework */; };
+		AEC556B92F54FE2F005D6EC7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC556B82F54FE2F005D6EC7 /* SwiftUI.framework */; };
+		AEC556C42F54FE33005D6EC7 /* VitalTrackWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AEC556B42F54FE2F005D6EC7 /* VitalTrackWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AED567ED2F1F6E40006A4CAF /* PBXContainerItemProxy */ = {
+		AEC5569E2F54FC10005D6EC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AED567DF2F1F6E40006A4CAF /* Project object */;
+			containerPortal = AEC556902F54FC10005D6EC7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AED567EA2F1F6E40006A4CAF;
+			remoteGlobalIDString = AEC5569B2F54FC10005D6EC7;
 			remoteInfo = "VitalTrack Watch App";
 		};
-		AED567FB2F1F6E43006A4CAF /* PBXContainerItemProxy */ = {
+		AEC556C22F54FE33005D6EC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AED567DF2F1F6E40006A4CAF /* Project object */;
+			containerPortal = AEC556902F54FC10005D6EC7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AED567EA2F1F6E40006A4CAF;
-			remoteInfo = "VitalTrack Watch App";
-		};
-		AED568052F1F6E43006A4CAF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AED567DF2F1F6E40006A4CAF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AED567EA2F1F6E40006A4CAF;
-			remoteInfo = "VitalTrack Watch App";
+			remoteGlobalIDString = AEC556B32F54FE2F005D6EC7;
+			remoteInfo = VitalTrackWidgetExtension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AED568112F1F6E43006A4CAF /* Embed Watch Content */ = {
+		AEC556AC2F54FC1A005D6EC7 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				AED567EC2F1F6E40006A4CAF /* VitalTrack Watch App.app in Embed Watch Content */,
+				AEC5569D2F54FC10005D6EC7 /* VitalTrack Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC556C92F54FE33005D6EC7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AEC556C42F54FE33005D6EC7 /* VitalTrackWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AED567E52F1F6E40006A4CAF /* VitalTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitalTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AED567EB2F1F6E40006A4CAF /* VitalTrack Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VitalTrack Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AED567FA2F1F6E43006A4CAF /* VitalTrack Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VitalTrack Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AED568042F1F6E43006A4CAF /* VitalTrack Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VitalTrack Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC556962F54FC10005D6EC7 /* VitalTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitalTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC5569C2F54FC10005D6EC7 /* VitalTrack Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VitalTrack Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC556B42F54FE2F005D6EC7 /* VitalTrackWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VitalTrackWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC556B62F54FE2F005D6EC7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AEC556B82F54FE2F005D6EC7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AEC556C52F54FE33005D6EC7 /* Exceptions for "VitalTrackWidget" folder in "VitalTrackWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AEC556B32F54FE2F005D6EC7 /* VitalTrackWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AED567EF2F1F6E40006A4CAF /* VitalTrack Watch App */ = {
+		AEC556A02F54FC10005D6EC7 /* VitalTrack Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "VitalTrack Watch App";
 			sourceTree = "<group>";
 		};
-		AED567FD2F1F6E43006A4CAF /* VitalTrack Watch AppTests */ = {
+		AEC556BA2F54FE2F005D6EC7 /* VitalTrackWidget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "VitalTrack Watch AppTests";
-			sourceTree = "<group>";
-		};
-		AED568072F1F6E43006A4CAF /* VitalTrack Watch AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "VitalTrack Watch AppUITests";
+			exceptions = (
+				AEC556C52F54FE33005D6EC7 /* Exceptions for "VitalTrackWidget" folder in "VitalTrackWidgetExtension" target */,
+			);
+			path = VitalTrackWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AED567E82F1F6E40006A4CAF /* Frameworks */ = {
+		AEC556992F54FC10005D6EC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AED567F72F1F6E43006A4CAF /* Frameworks */ = {
+		AEC556B12F54FE2F005D6EC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AED568012F1F6E43006A4CAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AEC556B92F54FE2F005D6EC7 /* SwiftUI.framework in Frameworks */,
+				AEC556B72F54FE2F005D6EC7 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AED567DE2F1F6E40006A4CAF = {
+		AEC5568F2F54FC10005D6EC7 = {
 			isa = PBXGroup;
 			children = (
-				AED567EF2F1F6E40006A4CAF /* VitalTrack Watch App */,
-				AED567FD2F1F6E43006A4CAF /* VitalTrack Watch AppTests */,
-				AED568072F1F6E43006A4CAF /* VitalTrack Watch AppUITests */,
-				AED567E62F1F6E40006A4CAF /* Products */,
+				AEC556A02F54FC10005D6EC7 /* VitalTrack Watch App */,
+				AEC556BA2F54FE2F005D6EC7 /* VitalTrackWidget */,
+				AEC556B52F54FE2F005D6EC7 /* Frameworks */,
+				AEC556972F54FC10005D6EC7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AED567E62F1F6E40006A4CAF /* Products */ = {
+		AEC556972F54FC10005D6EC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AED567E52F1F6E40006A4CAF /* VitalTrack.app */,
-				AED567EB2F1F6E40006A4CAF /* VitalTrack Watch App.app */,
-				AED567FA2F1F6E43006A4CAF /* VitalTrack Watch AppTests.xctest */,
-				AED568042F1F6E43006A4CAF /* VitalTrack Watch AppUITests.xctest */,
+				AEC556962F54FC10005D6EC7 /* VitalTrack.app */,
+				AEC5569C2F54FC10005D6EC7 /* VitalTrack Watch App.app */,
+				AEC556B42F54FE2F005D6EC7 /* VitalTrackWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC556B52F54FE2F005D6EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEC556B62F54FE2F005D6EC7 /* WidgetKit.framework */,
+				AEC556B82F54FE2F005D6EC7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AED567E42F1F6E40006A4CAF /* VitalTrack */ = {
+		AEC556952F54FC10005D6EC7 /* VitalTrack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AED568122F1F6E43006A4CAF /* Build configuration list for PBXNativeTarget "VitalTrack" */;
+			buildConfigurationList = AEC556AD2F54FC1A005D6EC7 /* Build configuration list for PBXNativeTarget "VitalTrack" */;
 			buildPhases = (
-				AED567E32F1F6E40006A4CAF /* Resources */,
-				AED568112F1F6E43006A4CAF /* Embed Watch Content */,
+				AEC556942F54FC10005D6EC7 /* Resources */,
+				AEC556AC2F54FC1A005D6EC7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AED567EE2F1F6E40006A4CAF /* PBXTargetDependency */,
+				AEC5569F2F54FC10005D6EC7 /* PBXTargetDependency */,
 			);
 			name = VitalTrack;
 			packageProductDependencies = (
 			);
 			productName = VitalTrack;
-			productReference = AED567E52F1F6E40006A4CAF /* VitalTrack.app */;
+			productReference = AEC556962F54FC10005D6EC7 /* VitalTrack.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		AED567EA2F1F6E40006A4CAF /* VitalTrack Watch App */ = {
+		AEC5569B2F54FC10005D6EC7 /* VitalTrack Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AED5680E2F1F6E43006A4CAF /* Build configuration list for PBXNativeTarget "VitalTrack Watch App" */;
+			buildConfigurationList = AEC556A92F54FC1A005D6EC7 /* Build configuration list for PBXNativeTarget "VitalTrack Watch App" */;
 			buildPhases = (
-				AED567E72F1F6E40006A4CAF /* Sources */,
-				AED567E82F1F6E40006A4CAF /* Frameworks */,
-				AED567E92F1F6E40006A4CAF /* Resources */,
+				AEC556982F54FC10005D6EC7 /* Sources */,
+				AEC556992F54FC10005D6EC7 /* Frameworks */,
+				AEC5569A2F54FC10005D6EC7 /* Resources */,
+				AEC556C92F54FE33005D6EC7 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AEC556C32F54FE33005D6EC7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				AED567EF2F1F6E40006A4CAF /* VitalTrack Watch App */,
+				AEC556A02F54FC10005D6EC7 /* VitalTrack Watch App */,
 			);
 			name = "VitalTrack Watch App";
 			packageProductDependencies = (
 			);
 			productName = "VitalTrack Watch App";
-			productReference = AED567EB2F1F6E40006A4CAF /* VitalTrack Watch App.app */;
+			productReference = AEC5569C2F54FC10005D6EC7 /* VitalTrack Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AED567F92F1F6E43006A4CAF /* VitalTrack Watch AppTests */ = {
+		AEC556B32F54FE2F005D6EC7 /* VitalTrackWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AED568152F1F6E43006A4CAF /* Build configuration list for PBXNativeTarget "VitalTrack Watch AppTests" */;
+			buildConfigurationList = AEC556C62F54FE33005D6EC7 /* Build configuration list for PBXNativeTarget "VitalTrackWidgetExtension" */;
 			buildPhases = (
-				AED567F62F1F6E43006A4CAF /* Sources */,
-				AED567F72F1F6E43006A4CAF /* Frameworks */,
-				AED567F82F1F6E43006A4CAF /* Resources */,
+				AEC556B02F54FE2F005D6EC7 /* Sources */,
+				AEC556B12F54FE2F005D6EC7 /* Frameworks */,
+				AEC556B22F54FE2F005D6EC7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AED567FC2F1F6E43006A4CAF /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				AED567FD2F1F6E43006A4CAF /* VitalTrack Watch AppTests */,
+				AEC556BA2F54FE2F005D6EC7 /* VitalTrackWidget */,
 			);
-			name = "VitalTrack Watch AppTests";
+			name = VitalTrackWidgetExtension;
 			packageProductDependencies = (
 			);
-			productName = "VitalTrack Watch AppTests";
-			productReference = AED567FA2F1F6E43006A4CAF /* VitalTrack Watch AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AED568032F1F6E43006A4CAF /* VitalTrack Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AED568182F1F6E43006A4CAF /* Build configuration list for PBXNativeTarget "VitalTrack Watch AppUITests" */;
-			buildPhases = (
-				AED568002F1F6E43006A4CAF /* Sources */,
-				AED568012F1F6E43006A4CAF /* Frameworks */,
-				AED568022F1F6E43006A4CAF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AED568062F1F6E43006A4CAF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AED568072F1F6E43006A4CAF /* VitalTrack Watch AppUITests */,
-			);
-			name = "VitalTrack Watch AppUITests";
-			packageProductDependencies = (
-			);
-			productName = "VitalTrack Watch AppUITests";
-			productReference = AED568042F1F6E43006A4CAF /* VitalTrack Watch AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productName = VitalTrackWidgetExtension;
+			productReference = AEC556B42F54FE2F005D6EC7 /* VitalTrackWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AED567DF2F1F6E40006A4CAF /* Project object */ = {
+		AEC556902F54FC10005D6EC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					AED567E42F1F6E40006A4CAF = {
+					AEC556952F54FC10005D6EC7 = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					AED567EA2F1F6E40006A4CAF = {
+					AEC5569B2F54FC10005D6EC7 = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					AED567F92F1F6E43006A4CAF = {
+					AEC556B32F54FE2F005D6EC7 = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = AED567EA2F1F6E40006A4CAF;
-					};
-					AED568032F1F6E43006A4CAF = {
-						CreatedOnToolsVersion = 26.2;
-						TestTargetID = AED567EA2F1F6E40006A4CAF;
 					};
 				};
 			};
-			buildConfigurationList = AED567E22F1F6E40006A4CAF /* Build configuration list for PBXProject "VitalTrack" */;
+			buildConfigurationList = AEC556932F54FC10005D6EC7 /* Build configuration list for PBXProject "VitalTrack" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = AED567DE2F1F6E40006A4CAF;
+			mainGroup = AEC5568F2F54FC10005D6EC7;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = AED567E62F1F6E40006A4CAF /* Products */;
+			productRefGroup = AEC556972F54FC10005D6EC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AED567E42F1F6E40006A4CAF /* VitalTrack */,
-				AED567EA2F1F6E40006A4CAF /* VitalTrack Watch App */,
-				AED567F92F1F6E43006A4CAF /* VitalTrack Watch AppTests */,
-				AED568032F1F6E43006A4CAF /* VitalTrack Watch AppUITests */,
+				AEC556952F54FC10005D6EC7 /* VitalTrack */,
+				AEC5569B2F54FC10005D6EC7 /* VitalTrack Watch App */,
+				AEC556B32F54FE2F005D6EC7 /* VitalTrackWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AED567E32F1F6E40006A4CAF /* Resources */ = {
+		AEC556942F54FC10005D6EC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AED567E92F1F6E40006A4CAF /* Resources */ = {
+		AEC5569A2F54FC10005D6EC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AED567F82F1F6E43006A4CAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AED568022F1F6E43006A4CAF /* Resources */ = {
+		AEC556B22F54FE2F005D6EC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,21 +273,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AED567E72F1F6E40006A4CAF /* Sources */ = {
+		AEC556982F54FC10005D6EC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AED567F62F1F6E43006A4CAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AED568002F1F6E43006A4CAF /* Sources */ = {
+		AEC556B02F54FE2F005D6EC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,25 +290,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AED567EE2F1F6E40006A4CAF /* PBXTargetDependency */ = {
+		AEC5569F2F54FC10005D6EC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AED567EA2F1F6E40006A4CAF /* VitalTrack Watch App */;
-			targetProxy = AED567ED2F1F6E40006A4CAF /* PBXContainerItemProxy */;
+			target = AEC5569B2F54FC10005D6EC7 /* VitalTrack Watch App */;
+			targetProxy = AEC5569E2F54FC10005D6EC7 /* PBXContainerItemProxy */;
 		};
-		AED567FC2F1F6E43006A4CAF /* PBXTargetDependency */ = {
+		AEC556C32F54FE33005D6EC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AED567EA2F1F6E40006A4CAF /* VitalTrack Watch App */;
-			targetProxy = AED567FB2F1F6E43006A4CAF /* PBXContainerItemProxy */;
-		};
-		AED568062F1F6E43006A4CAF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AED567EA2F1F6E40006A4CAF /* VitalTrack Watch App */;
-			targetProxy = AED568052F1F6E43006A4CAF /* PBXContainerItemProxy */;
+			target = AEC556B32F54FE2F005D6EC7 /* VitalTrackWidgetExtension */;
+			targetProxy = AEC556C22F54FE33005D6EC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AED5680C2F1F6E43006A4CAF /* Debug */ = {
+		AEC556A72F54FC1A005D6EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,7 +364,7 @@
 			};
 			name = Debug;
 		};
-		AED5680D2F1F6E43006A4CAF /* Release */ = {
+		AEC556A82F54FC1A005D6EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -445,13 +417,14 @@
 			};
 			name = Release;
 		};
-		AED5680F2F1F6E43006A4CAF /* Debug */ = {
+		AEC556AA2F54FC1A005D6EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYVRJJXXLV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = VitalTrack;
@@ -462,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vt.VitalTrack.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = vtapp.VitalTrack.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -477,13 +450,14 @@
 			};
 			name = Debug;
 		};
-		AED568102F1F6E43006A4CAF /* Release */ = {
+		AEC556AB2F54FC1A005D6EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYVRJJXXLV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = VitalTrack;
@@ -494,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vt.VitalTrack.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = vtapp.VitalTrack.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -510,14 +484,15 @@
 			};
 			name = Release;
 		};
-		AED568132F1F6E43006A4CAF /* Debug */ = {
+		AEC556AE2F54FC1A005D6EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYVRJJXXLV;
 				INFOPLIST_KEY_CFBundleDisplayName = VitalTrack;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vt.VitalTrack;
+				PRODUCT_BUNDLE_IDENTIFIER = vtapp.VitalTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -526,14 +501,15 @@
 			};
 			name = Debug;
 		};
-		AED568142F1F6E43006A4CAF /* Release */ = {
+		AEC556AF2F54FC1A005D6EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYVRJJXXLV;
 				INFOPLIST_KEY_CFBundleDisplayName = VitalTrack;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vt.VitalTrack;
+				PRODUCT_BUNDLE_IDENTIFIER = vtapp.VitalTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -543,89 +519,68 @@
 			};
 			name = Release;
 		};
-		AED568162F1F6E43006A4CAF /* Debug */ = {
+		AEC556C72F54FE33005D6EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYVRJJXXLV;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VitalTrackWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VitalTrackWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vt.VitalTrack-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = vtapp.VitalTrack.watchkitapp.VitalTrackWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitalTrack Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitalTrack Watch App";
 				WATCHOS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
 		};
-		AED568172F1F6E43006A4CAF /* Release */ = {
+		AEC556C82F54FE33005D6EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYVRJJXXLV;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VitalTrackWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VitalTrackWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vt.VitalTrack-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = vtapp.VitalTrack.watchkitapp.VitalTrackWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitalTrack Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitalTrack Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
-			};
-			name = Release;
-		};
-		AED568192F1F6E43006A4CAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vt.VitalTrack-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "VitalTrack Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
-			};
-			name = Debug;
-		};
-		AED5681A2F1F6E43006A4CAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vt.VitalTrack-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "VitalTrack Watch App";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 26.2;
 			};
@@ -634,52 +589,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AED567E22F1F6E40006A4CAF /* Build configuration list for PBXProject "VitalTrack" */ = {
+		AEC556932F54FC10005D6EC7 /* Build configuration list for PBXProject "VitalTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AED5680C2F1F6E43006A4CAF /* Debug */,
-				AED5680D2F1F6E43006A4CAF /* Release */,
+				AEC556A72F54FC1A005D6EC7 /* Debug */,
+				AEC556A82F54FC1A005D6EC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AED5680E2F1F6E43006A4CAF /* Build configuration list for PBXNativeTarget "VitalTrack Watch App" */ = {
+		AEC556A92F54FC1A005D6EC7 /* Build configuration list for PBXNativeTarget "VitalTrack Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AED5680F2F1F6E43006A4CAF /* Debug */,
-				AED568102F1F6E43006A4CAF /* Release */,
+				AEC556AA2F54FC1A005D6EC7 /* Debug */,
+				AEC556AB2F54FC1A005D6EC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AED568122F1F6E43006A4CAF /* Build configuration list for PBXNativeTarget "VitalTrack" */ = {
+		AEC556AD2F54FC1A005D6EC7 /* Build configuration list for PBXNativeTarget "VitalTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AED568132F1F6E43006A4CAF /* Debug */,
-				AED568142F1F6E43006A4CAF /* Release */,
+				AEC556AE2F54FC1A005D6EC7 /* Debug */,
+				AEC556AF2F54FC1A005D6EC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AED568152F1F6E43006A4CAF /* Build configuration list for PBXNativeTarget "VitalTrack Watch AppTests" */ = {
+		AEC556C62F54FE33005D6EC7 /* Build configuration list for PBXNativeTarget "VitalTrackWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AED568162F1F6E43006A4CAF /* Debug */,
-				AED568172F1F6E43006A4CAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AED568182F1F6E43006A4CAF /* Build configuration list for PBXNativeTarget "VitalTrack Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AED568192F1F6E43006A4CAF /* Debug */,
-				AED5681A2F1F6E43006A4CAF /* Release */,
+				AEC556C72F54FE33005D6EC7 /* Debug */,
+				AEC556C82F54FE33005D6EC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AED567DF2F1F6E40006A4CAF /* Project object */;
+	rootObject = AEC556902F54FC10005D6EC7 /* Project object */;
 }
